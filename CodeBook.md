@@ -36,23 +36,23 @@ fBodyAccelerometerJerkMagnitude, fBodyGyroscopeMagnitude, fBodyGyroscopeJerkMagn
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAccelerometer-XYZ
-tGravityAccelerometer-XYZ
-tBodyAccelerometerJerk-XYZ
-tBodyGyroscope-XYZ
-tBodyGyroscopeJerk-XYZ
-tBodyAccelerometerMagnitude
-tGravityAccelerometerMagnitude
-tBodyAcceleromterJerkMagnitude
-tBodyGyroscopeMagnitude
-tBodyGyroscopeJerkMagnitude
-fBodyAccelerometer-XYZ
-fBodyAccelerometerJerk-XYZ
-fBodyGyroscope-XYZ
-fBodyAccelerometerMagnitude
-fBodyAccelerometerJerkMagnitude
-fBodyGyroscopeMagnitude
-fBodyGyroscopeJerkMagnitude
+- tBodyAccelerometer-XYZ
+- tGravityAccelerometer-XYZ
+- tBodyAccelerometerJerk-XYZ
+- tBodyGyroscope-XYZ
+- tBodyGyroscopeJerk-XYZ
+- tBodyAccelerometerMagnitude
+- tGravityAccelerometerMagnitude
+- tBodyAcceleromterJerkMagnitude
+- tBodyGyroscopeMagnitude
+- tBodyGyroscopeJerkMagnitude
+- fBodyAccelerometer-XYZ
+- fBodyAccelerometerJerk-XYZ
+- fBodyGyroscope-XYZ
+- fBodyAccelerometerMagnitude
+- fBodyAccelerometerJerkMagnitude
+- fBodyGyroscopeMagnitude
+- fBodyGyroscopeJerkMagnitude
 
 The set of variables that were estimated from these signals and included in 'tidy_data.txt' are: 
 
