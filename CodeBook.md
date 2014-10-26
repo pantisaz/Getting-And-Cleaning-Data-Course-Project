@@ -98,7 +98,7 @@ Transformations
 - Used write.table to save a text file of the final data set. 
 - The result is the 'tidy_data' data set with the following format (first 6 columns):
   
-  | Subject  |      variable              |Laying      |Sitting |Standing| Walking |Walking Downstairs| Walking Upsatairs|
+  | Subject  |      variable              |Laying      |Sitting |Standing| Walking |Walking Downstairs| Walking Upstairs|
 |--------|---------------------------|---------- |----------- |-----------|------|------------------|------------------|
 |1       |tBodyAccelerometermeanX    |0.22159824 |0.261237565 |  0.27891763|0.27733076| 0.289188320|0.25546169|
 |1       |tBodyAccelerometermeanY    |-0.04051395|-0.001308288| -0.01613759| -0.01738382|   -0.009918505|  -0.02395315|
