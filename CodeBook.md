@@ -1,8 +1,9 @@
 CodeBook
 ========
 
-This Code Book describes the data used in run_analysis.R and the different variables, files and operations used to obtain
-the required 'Tidy Data' 
+This Code Book describes the data, variables and files used in run_analysis.R to obtain the required 'Tidy Data' 
+
+This Code Book also assumes you have read the Project's README.md 
 
 The Samsung Data 
 ================
