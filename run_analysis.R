@@ -32,7 +32,7 @@ ytest<-read.table("./test/y_test.txt")
 
 data4<-rbind(ytrain,ytest)
 
-newdata4<-lapply(data4, FUN = function(foo) recode(foo,  "1= 'Walking' ; 2='Walking Upsatairs' ; 3='Walking Downstairs' ; 4='Sitting' ; 5='Standing' ; 6='Laying' " ))
+newdata4<-lapply(data4, FUN = function(foo) recode(foo,  "1= 'Walking' ; 2='Walking Upstairs' ; 3='Walking Downstairs' ; 4='Sitting' ; 5='Standing' ; 6='Laying' " ))
 
 data5<-(data.frame(newdata4))
 
