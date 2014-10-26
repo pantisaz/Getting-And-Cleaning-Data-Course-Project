@@ -83,4 +83,27 @@ The set of variables that were estimated from these signals and included in 'tid
 - Mean value
 - Standard deviation
 
+Transformations
+===============
 
+- Combined X_train and X_test data sets
+- Combined previous result with subject_train and subject_test data sets
+- Used recode (car package) to change all numbers codes in y_train and y_test data sets to the appropriate Activity labels and combined them as well
+- Combined Activities with the Subject, X_train and X_test data set
+- Replaced column names with the features data set, and added Subject and Activity as names for the last two columns
+- Used grep to subset a data set with only means and standard deviations, then used -grep to remove frequency mean columns
+- Used melt and dcast to create a data set that shows the mean of each varibale for each Subject and Activity
+- Used gsub to remove invalid variable characters '()' and '-'
+- Used gsub to expand some key word abreviations. 'Acc' to 'Accelerometer', 'Mag' to 'Magnitude', 'std' to 'StandardDeviation' and 'Gyro' to 'Gyroscope'
+- Used write.table to save a text file of the final data set. 
+- The result is data set with the following format (first 6 columns):
+  
+  | Subject  |      variable              |Laying      |Sitting |Standing| Walking |Walking Downstairs| Walking Upsatairs|
+|--------|---------------------------|---------- |----------- |-----------|------|------------------|------------------|
+|1       |tBodyAccelerometermeanX    |0.22159824 |0.261237565 |  0.27891763|0.27733076| 0.289188320|0.25546169|
+|1       |tBodyAccelerometermeanY    |-0.04051395|-0.001308288| -0.01613759| -0.01738382|   -0.009918505|  -0.02395315|
+|1       |tBodyAccelerometermeanZ    |-0.11320355|-0.104544182| -0.11060182| -0.11114810|  -0.107566191|       -0.09730200|
+|1       |tGravityAccelerometermeanX |-0.24888180|0.831509933 | 0.94295200|  0.93522320| 0.931874419|        0.89335110|
+|1       |tGravityAccelerometermeanY |0.70554977 |0.204411593 |-0.27298383| -0.28216502| -0.266610339|       -0.36215336|
+|1       |tGravityAccelerometermeanZ |0.44581772 |0.332043703 | 0.01349058| -0.06810286| -0.062119959|       -0.07540294|
+   
