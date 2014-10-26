@@ -92,7 +92,7 @@ Transformations
 - Combined Activities with the Subject, X_train and X_test data set
 - Replaced column names with the features data set, and added Subject and Activity as names for the last two columns
 - Used grep to subset a data set with only means and standard deviations, then used -grep to remove frequency mean columns
-- Used melt and dcast to create a data set that shows the mean of each varibale for each Subject and Activity
+- Used melt and dcast to create a data set that shows the mean of each variable for each Subject and Activity
 - Used gsub to remove invalid variable characters '()' and '-'
 - Used gsub to expand some key word abreviations. 'Acc' to 'Accelerometer', 'Mag' to 'Magnitude', 'std' to 'StandardDeviation' and 'Gyro' to 'Gyroscope'
 - Used write.table to save a text file of the final data set. 
