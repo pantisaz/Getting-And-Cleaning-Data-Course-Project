@@ -19,7 +19,7 @@ The Script
 
 1. Set your working directory to the folder 'UCI HAR Dataset'
 2. run_analysis.R will download the necessary packages, if you haven't already. 
-3. run_analysis.R will read the 'X_test', 'X_train', 'subject_train', 'subject_test', 'y_train', 'y_test' and 'features' text files from the 'UCI HAR Dataset'folder and combine the tables to generate one data frame. (Transformation details on Code Book)
+3. run_analysis.R will read the 'X_test', 'X_train', 'subject_train', 'subject_test', 'y_train', 'y_test' and 'features' text files from the 'UCI HAR Dataset' folder and combine the tables to generate one data frame. (Transformation details on Code Book)
 4. run_analysis.R will generate a  data frame 'tidy_data.txt' in the working directory completing the required objective of the project (Step 5)
 
 
