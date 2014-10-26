@@ -1,7 +1,7 @@
 CodeBook
 ========
 
-This Code Book describes the data, variables files and transformations used in run_analysis.R to obtain the required 'Tidy Data' 
+This Code Book describes the data, variables, files and transformations used in run_analysis.R to obtain the required 'Tidy Data' 
 
 This Code Book also assumes you have read the Project's README.md 
 
