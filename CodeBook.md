@@ -96,7 +96,7 @@ Transformations
 - Used gsub to remove invalid variable characters '()' and '-'
 - Used gsub to expand some key word abreviations. 'Acc' to 'Accelerometer', 'Mag' to 'Magnitude', 'std' to 'StandardDeviation' and 'Gyro' to 'Gyroscope'
 - Used write.table to save a text file of the final data set. 
-- The result is the 'tidy_data' data set with the following format (first 6 columns):
+- The result is the 'tidy_data' data set with the following format (first 6 rows):
   
   | Subject  |      variable              |Laying      |Sitting |Standing| Walking |Walking Downstairs| Walking Upstairs|
 |--------|---------------------------|---------- |----------- |-----------|------|------------------|------------------|
