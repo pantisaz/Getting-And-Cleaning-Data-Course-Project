@@ -81,4 +81,4 @@ head(tidy_data)
 
 # Saves a text file of the final 'tidy_data' data frame to the working directory
 
-write.table(tidy_data, file = "tidy_data.txt", row.name=FILE)
+write.table(tidy_data, file = "tidy_data.txt", row.name=FALSE)
